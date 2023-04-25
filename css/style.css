@@ -1,0 +1,135 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+
+.continer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.continer .header {
+  width: 80%;
+  margin: 20px auto;
+  position: sticky;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.continer .header .log {
+  flex-basis: 20%;
+}
+.continer .header .log img {
+  width: 150px;
+}
+.continer .header .head-links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.continer .header .head-links ul li a {
+  padding: 20px;
+  color: white;
+}
+.continer .information {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.continer .information .mobile {
+  width: 200px;
+  position: absolute;
+  left: 33%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.continer .information #cricle {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transition: all 1s;
+  transform: rotate(0deg);
+}
+.continer .information #cricle .feature {
+  position: absolute;
+  display: flex;
+  color: white;
+}
+.continer .information #cricle .feature div h2 {
+  text-transform: capitalize;
+  margin-left: 30px;
+}
+.continer .information #cricle .feature div p {
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.continer .information #cricle .feature img {
+  width: 70px;
+}
+.continer .information #cricle .one {
+  top: 450px;
+  right: 50px;
+}
+.continer .information #cricle .two {
+  top: 110px;
+  left: 350px;
+  transform: rotate(-90deg);
+}
+.continer .information #cricle .three {
+  bottom: 450px;
+  left: 50px;
+  transform: rotate(-180deg);
+}
+.continer .information #cricle .four {
+  bottom: 110px;
+  right: 350px;
+  transform: rotate(90deg);
+}
+.continer .controles {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.continer .controles h3 {
+  text-align: center;
+  margin: 15px 0;
+  color: #111;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.continer .controles img {
+  width: 20px;
+  color: black;
+}
+.continer .controles #down {
+  transform: rotatex(180deg);
+}
+.continer .overlay {
+  width: 0;
+  height: 0;
+  border-top: 500px solid #fff;
+  border-bottom: 500px solid #fff;
+  border-right: 500px solid transparent;
+  border-left: 500px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}/*# sourceMappingURL=style.css.map */
